@@ -1,5 +1,5 @@
-document.addEventListener("DOMContentLoaded", function(event){
-  document.getElementById("cheerButton").addEventListener("click", function(event){
+$( document ).ready(function(event){
+  $("#cheerButton").click(function(event){
     event.preventDefault();
     var name = document.getElementById("cheersInput").value;
     var nameUpper = name.toUpperCase();
